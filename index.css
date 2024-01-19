@@ -1,0 +1,141 @@
+/* navbar */
+.navbar {
+  font-family: "Varela", sans-serif;
+}
+
+.nav-item {
+  margin: 0 20px;
+}
+
+.nav-item,
+.dropdown-item {
+  font-size: 17px;
+}
+
+/* title page */
+.get-started {
+  text-align: center;
+  font-family: "Comfortaa", sans-serif;
+}
+
+.get-started h1 {
+  font-size: 3.3rem;
+  margin: 15px;
+}
+
+.get-started h1 span {
+  color: #4cb9e7;
+}
+
+.get-started img {
+  width: 650px;
+  animation: bouncing 3s ease-in-out infinite;
+}
+
+/* containers */
+body .container-fluid {
+  padding: 5% 2% 0 2%;
+}
+
+/* info  */
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info h1 {
+  line-height: 2;
+}
+
+.info-text {
+  border-radius: 1%;
+  padding: 5% 0 7% 5%;
+  line-height: 1.7;
+  max-width: 60%;
+}
+
+.info img {
+  max-width: 30%;
+}
+
+.companies {
+  padding: 2% 0;
+  display: flex;
+  justify-content: center;
+}
+
+.companies img {
+  width: 130px;
+  margin: 50px;
+}
+
+/* objectives */
+.objectives {
+  display: flex;
+  justify-content: center;
+  line-height: 1.7;
+}
+
+.objectives div {
+  padding: 5% 0 7% 5%;
+}
+
+.objectives div img {
+  width: 5%;
+}
+
+.objectives img {
+  width: 38%;
+  height: 100%;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #365486;
+  padding: 2% 7%;
+  color: white;
+}
+
+.footer div span {
+  color: #4cb9e7;
+}
+
+.footer a {
+  text-decoration: none;
+  margin: 10px;
+  font-size: 20px;
+}
+
+/* contact page */
+
+.contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 8%;
+  font-family: "Noto Sans Tirhuta", sans-serif;
+  color: #537188;
+  line-height: 4;
+}
+
+.contact p {
+  color: #9DB2BF;
+}
+
+/* animations  */
+@keyframes bouncing {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
